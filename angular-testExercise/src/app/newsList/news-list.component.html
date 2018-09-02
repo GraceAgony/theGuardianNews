@@ -1,0 +1,14 @@
+<div id="container">
+  <button class="btn" (click)="refresh();" type="button">
+      <img src="../../assets/refresh.png">
+      <span>Refresh</span>
+  </button>
+  <span *ngIf="error" class="error">
+    {{error}}
+  </span>
+  <ul class="news" *ngIf = "!error" >
+    <li *ngFor="let newItem of newsList">
+        <span >{{newItem.webTitle}}</span>
+    </li>
+  </ul>
+</div>
