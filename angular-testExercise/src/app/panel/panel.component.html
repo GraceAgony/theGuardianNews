@@ -1,6 +1,7 @@
 <div class="panel panel-info">
-  <div class="panel-heading" (click)="toggle.emit()">
+  <div [ngClass]="{active: opened}" class="panel-heading" (click)="toggle.emit()">
     {{title}}
+    <img class="img"/>
   </div>
   <div class="panel-body" *ngIf="opened">
     <ng-content></ng-content>

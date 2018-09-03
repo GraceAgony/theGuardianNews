@@ -8,7 +8,9 @@
   </span>
     <panel *ngFor="let newItem of newsList"
            [title]="newItem.webTitle" [opened]="newItem.opened"
-           (toggle)="getNewsText(newItem); newItem.opened = !newItem.opened" [ngClass]="{opened: newItem.opened}">
+           (toggle)="getNewsText(newItem);
+           newItem.opened = !newItem.opened"
+           [ngClass]="{active: newItem.opened}">
       {{newItem.text}}
       <br>
       <a href="{{newItem.webUrl}}">Read full news</a>
