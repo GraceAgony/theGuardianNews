@@ -38,7 +38,7 @@ export class NewsListComponent implements OnInit {
 
   getNews(): void {
     this.newsList = [];
-    this.newsService.getNews()
+    this.newsService.getNews(1)
       .subscribe(
         news => {
           this.newsList.push(news);

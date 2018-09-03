@@ -14,7 +14,6 @@ export class NewsService {
 
 
   getText(url) {
-    console.log('getText');
     return this.http.get(url)
       .pipe(
         map((data: any) => {
@@ -54,9 +53,17 @@ export class NewsService {
           });
    }*/
 
-  getNews(): Observable<News> {
+ getTotalPages(): Observable<number>
+ {
+    return this.http.get(`https://content.guardianapis.com/search?api-key=${this.apiKey}`)
+      .pipe(map((data: any) => {
+        return data.response.pages;
+      }))
+  }
+
+  getNews(page): Observable<News> {
     return new Observable(obs => {
-      this.http.get(`https://content.guardianapis.com/search?api-key=${this.apiKey}`)
+      this.http.get(`https://content.guardianapis.com/search?page=${page}&api-key=${this.apiKey}`)
         .subscribe((data: any) => {
           data.response.results.map(news => {
             obs.next(

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e5a41d-50ec-43de-b276-cc85f27fb6e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-testExercise/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-testExercise/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-testExercise/src/app/news.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/src/app/news.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-testExercise/src/app/news.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/src/app/news.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,16 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="news.service.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news.service.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/news.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="232">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="news-list.component.html" pinned="false" current-in-tab="false">
@@ -50,8 +61,8 @@
       <file leaf-file-name="news-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -77,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panel.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="panel.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -126,9 +137,13 @@
         <option value="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.html" />
         <option value="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.html" />
         <option value="$PROJECT_DIR$/angular-testExercise/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css" />
+        <option value="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.ts" />
+        <option value="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.ts" />
+        <option value="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.css" />
+        <option value="$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.html" />
         <option value="$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.ts" />
         <option value="$PROJECT_DIR$/angular-testExercise/src/app/news.service.ts" />
-        <option value="$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css" />
       </list>
     </option>
   </component>
@@ -151,6 +166,9 @@
     <option name="y" value="471" />
     <option name="width" value="1113" />
     <option name="height" value="564" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -245,26 +263,26 @@
       <updated>1535719158289</updated>
       <workItem from="1535719161825" duration="6785000" />
       <workItem from="1535889632760" duration="16266000" />
-      <workItem from="1535973346016" duration="10571000" />
+      <workItem from="1535973346016" duration="11970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33622000" />
+    <option name="totallyTimeSpent" value="35021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17358078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17358078" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22980063" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22980063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Salesforce" order="7" />
@@ -538,6 +556,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/pagination/pagination.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -547,35 +588,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/newsList/news-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/news.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="232">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-testExercise/src/app/panel/panel.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
