@@ -3,4 +3,5 @@ export class News {
   "webUrl":string;
   "apiUrl":string;
   "text": string;
+  "opened": boolean;
 }

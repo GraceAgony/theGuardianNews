@@ -4,15 +4,19 @@ import { HttpClientModule }   from '@angular/common/http';
 
 import {NewsListComponent} from "./newsList/news-list.component";
 import { AppComponent } from './app.component';
+import {PanelComponent} from "./panel/panel.component";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsListComponent
+    NewsListComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
