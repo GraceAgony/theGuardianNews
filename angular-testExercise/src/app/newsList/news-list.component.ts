@@ -40,10 +40,13 @@ export class NewsListComponent implements OnInit {
 
   getNews(): void {
     this.newsList = [];
-    this.newsService.getNews(1)
+    this.newsService.getNews()
       .subscribe(
         news => {
           this.newsList.push(news);
+          if(this.newsList.length ==0){
+            this.error = "Sorry, we couldn't find news for you. Please try again later"
+          }
         },
         error => {
           this.error = "Sorry, we couldn't find news for you. Please try again later"
@@ -52,5 +55,18 @@ export class NewsListComponent implements OnInit {
 
   }
 
+  getPage():number{
+    return this.newsService.page;
+  }
 
+  getTotalPages(){
+    console.log('getTotal');
+     this.newsService.getTotalPages().subscribe(value => { console.log(value)});
+    return 220;
+  }
+
+  setPage(page){
+    this.newsService.page = page;
+    this.getNews();
+  }
 }

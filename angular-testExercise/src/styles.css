@@ -12,3 +12,27 @@ h1{
 button{
   cursor: pointer;
 }
+
+.btn span{
+  display:inline-block;
+  vertical-align:middle;
+}
+.btn{
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: #0abab5;
+  border: 2px solid #00958F;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5%;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.btn:hover {
+  background-color: #81E4E0;
+}
+
+.btn:disabled{
+  background-color: darkgray;
+}

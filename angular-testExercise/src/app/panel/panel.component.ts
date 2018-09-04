@@ -13,7 +13,6 @@ export class PanelComponent {
 
 
   public isOpened(): boolean {
-    console.log(this.opened);
     return this.opened;
   }
 

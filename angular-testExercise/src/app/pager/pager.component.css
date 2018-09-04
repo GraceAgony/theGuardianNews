@@ -1,0 +1,13 @@
+.pager{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#pageInput{
+  display: inline-block;
+  width:auto;
+  text-align: center;
+}

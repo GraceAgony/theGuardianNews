@@ -10,8 +10,9 @@ export class NewsService {
   constructor(private http: HttpClient) {
   }
 
-  apiKey = "d7ae4a56-8bf1-48a7-b44f-ded4252cf2f1";
-
+  apiKey = "47b7cd34-19c9-401c-b720-6ee19be058d2";
+  //apiKey = "64bbd2ac-0185-441e-8acc-9f40afad0683";
+  private _page = 1;
 
   getText(url) {
     return this.http.get(url)
@@ -37,21 +38,6 @@ export class NewsService {
     })
   }
 
-  /* getNews(): Observable<News>{
-
-     return new Observable(obs => {
-       console.log("producer");
-       this.http.get(`https://content.guardianapis.com/search?api-key=${this.apiKey}`)
-          .subscribe((data : any) => {
-            data.response.results.map(news => {
-              this.getText(`${news.apiUrl}?show-blocks=body&api-key=${this.apiKey}`).subscribe(text => {
-                news.text = text;
-                obs.next(news);
-              })
-            });
-          });
-          });
-   }*/
 
  getTotalPages(): Observable<number>
  {
@@ -61,9 +47,9 @@ export class NewsService {
       }))
   }
 
-  getNews(page): Observable<News> {
+  getNews(): Observable<News> {
     return new Observable(obs => {
-      this.http.get(`https://content.guardianapis.com/search?page=${page}&api-key=${this.apiKey}`)
+      this.http.get(`https://content.guardianapis.com/search?page=${this._page}&api-key=${this.apiKey}`)
         .subscribe((data: any) => {
           data.response.results.map(news => {
             obs.next(
@@ -79,4 +65,15 @@ export class NewsService {
     });
 
   }
+
+
+  get page() : number{
+    return this._page;
+  }
+
+  set page(value: number){
+    this._page = value;
+  }
+
+
 }

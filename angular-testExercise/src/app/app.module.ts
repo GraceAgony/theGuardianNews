@@ -6,12 +6,14 @@ import {NewsListComponent} from "./newsList/news-list.component";
 import { AppComponent } from './app.component';
 import {PanelComponent} from "./panel/panel.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {PagerComponent} from "./pager/pager.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsListComponent,
-    PanelComponent
+    PanelComponent,
+    PagerComponent
   ],
   imports: [
     BrowserModule,

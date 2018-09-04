@@ -1,0 +1,8 @@
+<div class = 'pager'>
+    <button class="btn" [disabled]="1===page" (click)="previous()"> < Previous Page</button>
+    <div id="pageInputContainer">
+      <input type="text" id="pageInput" value={{page}} (change)="change($event)">
+      <span> of {{totalPages}} pages</span>
+    </div>
+    <button class="btn" [disabled]="totalPages===page" (click)="next()">Next Page > </button>
+</div>
