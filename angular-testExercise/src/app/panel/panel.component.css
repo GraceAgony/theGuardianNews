@@ -6,6 +6,8 @@
   cursor: pointer;
   font-size: 1em;
   transition: all .3s;
+  display: flex;
+  flex-direction: row;
 }
 
 .panel-heading:hover {
@@ -14,11 +16,14 @@
 .img {
   content:url("../../assets/baseline_keyboard_arrow_down_white_48dp.png");
   width: 30px;
+  height: 30px;
+  margin-top: -5px;
 }
 
 .active .img{
   content:url("../../assets/baseline_keyboard_arrow_up_white_48dp.png");
   width: 30px;
+
 }
 
 
@@ -28,3 +33,5 @@
   padding: 3%;
   transition: all .3s ease-out;
 }
+
+

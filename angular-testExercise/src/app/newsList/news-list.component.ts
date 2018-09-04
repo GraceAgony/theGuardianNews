@@ -14,9 +14,10 @@ import {PanelComponent} from "../panel/panel.component";
 export class NewsListComponent implements OnInit {
   newsList: News[];
   error: any;
+  pageCount: number;
 
 
-  constructor(private newsService: NewsService) {
+  constructor(public newsService: NewsService) {
   }
 
 
@@ -52,7 +53,7 @@ export class NewsListComponent implements OnInit {
           this.error = "Sorry, we couldn't find news for you. Please try again later"
         },
       );
-
+    this.getTotalPages();
   }
 
   getPage():number{
@@ -60,9 +61,7 @@ export class NewsListComponent implements OnInit {
   }
 
   getTotalPages(){
-    console.log('getTotal');
-     this.newsService.getTotalPages().subscribe(value => { console.log(value)});
-    return 220;
+    this.newsService.getTotalPages().subscribe(value => { this.pageCount = value});
   }
 
   setPage(page){

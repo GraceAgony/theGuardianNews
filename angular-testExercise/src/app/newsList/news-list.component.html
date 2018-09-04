@@ -17,8 +17,8 @@
       <br>
       <a href="{{newItem.webUrl}}">Read full news</a>
     </panel>
-  <app-pager [page]="getPage()"
-             [totalPages]="getTotalPages()"
+  <app-pager [page]="newsService.page"
+             [totalPages]="pageCount"
              (changePage) = "setPage($event)"></app-pager>
 </div>
 

@@ -35,7 +35,11 @@ export class PagerComponent{
 
   change(event){
     if(this.page< this.totalPages) {
-      this.changePage.emit(event.target.value);
+      if(this.page > 0){
+        this.changePage.emit(event.target.value);
+      }else{
+        this.changePage.emit(1);
+      }
     }else {
       this.changePage.emit(this.totalPages);
     }

@@ -10,7 +10,7 @@ export class NewsService {
   constructor(private http: HttpClient) {
   }
 
-  apiKey = "47b7cd34-19c9-401c-b720-6ee19be058d2";
+  apiKey = "7d6722e6-3582-49d5-aed6-273b97a72eb3";
   //apiKey = "64bbd2ac-0185-441e-8acc-9f40afad0683";
   private _page = 1;
 
