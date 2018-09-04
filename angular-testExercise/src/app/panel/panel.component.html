@@ -1,9 +1,9 @@
 <div class="panel panel-info">
-  <div [ngClass]="{active: opened}" class="panel-heading" (click)="toggle.emit()">
+  <div [ngClass]="{active: opened}" class="panel-heading" (click)="toggle.emit()" [@slideInOut]="isOpened()">
     {{title}}
     <img class="img"/>
   </div>
-  <div class="panel-body" *ngIf="opened">
-    <ng-content></ng-content>
+  <div class="panel-body"  *ngIf="opened">
+    <ng-content ></ng-content>
   </div>
   </div>

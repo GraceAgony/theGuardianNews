@@ -3,7 +3,7 @@ import { trigger, transition, animate, style, state } from '@angular/animations'
 import { News } from '../news';
 import { NewsService } from '../news.service';
 import {PanelComponent} from "../panel/panel.component";
-import {SlideInOutAnimation} from "../animation";
+
 
 @Component({
   selector: 'news-list',
